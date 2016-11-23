@@ -16,8 +16,8 @@ public class QuestionServlet extends HttpServlet {
 		String questionOne = req.getParameter("question-one");
 		String questionTwo = req.getParameter("question-two");
 
-		String correctAnswer1 = "b1 = -128";
-		String correctAnswer2 = "Будет напечатано TEST TEST  без кавычек";
+		String correctAnswer1 = "1";
+		String correctAnswer2 = "4";
 		String title = surname + " " + name + ", ваш результат:";
 		String msg ="";
 		if(questionOne!=null && questionTwo!=null) {
