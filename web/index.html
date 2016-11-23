@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/questionPattern" method="POST">
+    <p>Имя:<br>
+    <input type="text" name="name"></p>
+    <p>Фамилия: <br>
+    <input type="text" name="surname"></p>
+    <p>Возраст: <br>
+    <input type="text" name="age"></p>
+
+    <h4> Ответьте на вопросы по Java</h4>
+    <p><strong>1. Что произойдет, если скомпилировать и запустить следующий код: </strong></p>
+    <p><img src="images/q1.png" alt="question1"></p>
+
+    <label>
+        <input type="radio"  name="question-one" value="b1 = -128">
+        b1 = -128
+    </label><br>
+    <label>
+        <input type="radio" name="question-one" value="b1 = 128">
+        b1 = 128
+    </label><br>
+    <label>
+        <input type="radio" name="question-one" value="b1 = 0">
+        b1 = 0
+    </label><br>
+    <label>
+        <input type="radio" name="question-one" value="Возникнет ошибка компиляции">
+        Возникнет ошибка компиляции
+    </label><br>
+
+
+
+    <p><strong>2. Каким будет результат работы программы: </strong></p>
+    <p><img src="images/q2.png" alt="question2"></p>
+
+    <label>
+        <input type="radio"  name="question-two" value="Warning при компиляции">
+        Warning при компиляции
+    </label><br>
+    <label>
+        <input type="radio" name="question-two" value="Ошибка времени выполнения">
+        Ошибка времени выполнения
+    </label><br>
+    <label>
+        <input type="radio" name="question-two" value=" Будет напечатано TEST  без кавычек">
+        Будет напечатано "TEST " без кавычек
+    </label><br>
+    <label>
+        <input type="radio" name="question-two" value="Будет напечатано TEST TEST  без кавычек">
+        Будет напечатано "TEST TEST " без кавычек
+    </label><br>
+
+    <input type="submit">
+</form>
+</body>
+</html>
